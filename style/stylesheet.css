@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'CloisterBlack';
+    src: url('../fonts/CloisterBlack.eot');
+    src: url('../fonts/CloisterBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CloisterBlack.woff2') format('woff2'),
+        url('../fonts/CloisterBlack.woff') format('woff'),
+        url('../fonts/CloisterBlack.ttf') format('truetype'),
+        url('../fonts/CloisterBlack.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemes de Representació Avançada_2DG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /reset/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        body {
+            font-size: 18px;
+            font-family: 'Prata', serif;
+        }
+        
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: white;
+            background-color:coral;
+            background-image: url(img/pattern.png);
+            background-size: cover;
+            background-position: -20px -20px;
+            height: 100vh;
+            width: 100%;
+            padding: 0 2em;
+            
+        }
+        h1{
+            font-size: 11vw;
+            line-height: 12vw;
+        }
+        h2{
+            font-size: 6vw;
+            font-weight: 500;
+        }
+        h3{
+            font-size: 4vw;
+            font-weight: 200;
+        }
+        nav{
+            position: sticky;
+            top: 0;
+            background-color:cornflowerblue ;
+            width: 100%;
+            height: 143px;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
+        nav a{
+            color: white;
+            font-size: 1.4em;
+        }
+        main{
+            background:cornsilk;
+            padding: 3em 2em 2.5em 2em;
+        }
+        section{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            padding: 1em 1em 0 1em;
+            margin: 0 0 1.5em 0;
+        }
+        section figure{
+            height: 224px;
+        }
+        section figure img{
+            height: 224px;
+            object-fit: cover;
+            object-position: bottom;
+        }
+        section figcaption{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3em;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+            background: #CC8B86;
+            padding: 2em 2em 1em 2em;
+        }
+        footer a{
+            color: white;
+            
+        }
+        .xxss{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+           main {
+                background: red;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            main {
+                background: green;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background: blue;
+            }
+        
+            header {
+                background-image: 
+                
+        }
+            main {
+                background: black;
+            
+        }
+            h1{
+                font-size: 6vw;
+                line-height: 8vw;
+                width: 100%;
+                padding: 0 23% 0 25%;
+        }
+            h2{
+                font-size: 7vw;         
+                padding: 0 23% 0 25%;
+        }
+            h3{
+                font-size: 4vw;         
+                padding: 0 23% 0 25%;
+            
+        }
+            nav{
+                position: relative;
+                justify-content: center;
+        }
+            nav a{
+                padding: 0 2em;
+            }
+           .grid-container{
+                padding: 0 15%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            section {
+                width: 43%;
+                margin: 1.5em 1em 1em 1em;
+            }
+            footer{
+                flex-direction: row;
+            }
+            .xxss{ 
+                width: 75%;
+                justify-content: space-between;
+            }
+            .mail{
+                display: flex;
+                width: 25%;
+                justify-content: flex-end;
+            }
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            body {
+                background: orange;
+            }
+        }
+
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: pink;
+            }
+            h1 br{
+                display: none;
+            }
+            h1{
+                font-size: 5vw;
+                padding: 0 16.6%;
+                background: red;
+                
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Sistemes de<br> Representació<br> Avançada</h1>
+        <h2>2DG - Easd Alcoi</h2>
+        <h3>Lara Richart Olcina</h3>
+    </header>
+   
+    <nav>
+        <a href="projectes"></a>
+        <a href="contacte"></a>
+    </nav>
+    
+      <main>
+       <div class="grid-container">
+        <section>
+            <figure>
+                <img src="A/p1_treballs/disseny/IMG/Captura de pantalla 2021-01-25 a las 1.47.52.png" alt="llocweb">
+            </figure>
+            <figcaption>
+                 <h4>p0_llocweb</h4>
+            </figcaption>
+        </section>
+        <section>
+            <figure>
+                <img src="A/p1_treballs/disseny/IMG/fotos-curiosas-17.jpg" alt="llocweb">
+            </figure>
+            <figcaption>
+                 <h4>p0_llocweb</h4>
+            </figcaption>
+        </section>
+        <section>
+            <figure>
+                <img src="A/p1_treballs/disseny/IMG/png-transparent-pink-paint-illustration-ink-brush-pen-red-hair-brush-purple-ink-text.png" alt="llocweb">
+            </figure>
+            <figcaption>
+                 <h4>p0_llocweb</h4>
+            </figcaption>
+        </section>
+        </div>
+   
+     </main>
+    <footer>
+     <div class="xxss">
+        <a href="#">twitter</a>
+        <a href="#">insta</a>
+        <a href="#">facebook</a>
+        <a href="#">:)</a>
+    </div>
+     <div class="email">
+        <p><a href="mailto:lararichart.es"></a></p>
+    </div>
+    </footer>
+</body>
+
+</html>
